@@ -29,9 +29,13 @@ h6 {
 
 html {
   overflow-x: hidden;
+  height: 100%;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: sans-serif;
   line-height: 1;
   font-weight: 400;
@@ -96,6 +100,7 @@ li {
 /* Tender */
 
 .tender {
+  flex: 1 1 0;
   margin-bottom: 50px;
 }
 
@@ -143,6 +148,7 @@ li {
 /* Instruction */
 
 .instruction {
+  flex: 1 1 0;
   margin-bottom: 40px;
 }
 
@@ -166,6 +172,7 @@ li {
 /* About */
 
 .about {
+  flex: 1 1 0;
   margin-bottom: 40px;
 }
 
@@ -199,6 +206,7 @@ li {
 }
 
 .footer__header {
+  padding-bottom: 20px;
 }
 
 .footer__body {
@@ -210,11 +218,11 @@ li {
 .footer__details {
   vertical-align: top;
   padding-top: 20px;
-  padding: 20px 40px 0 0;
+  padding: 0 40px 0 0;
 }
 
 .footer__detail {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 .footer__mail {
 }
@@ -225,7 +233,7 @@ li {
 
 .footer__link {
   display: block;
-  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .footer__link:hover {
@@ -243,9 +251,8 @@ li {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 70%;
   background-color: white;
-  padding: 30px;
+  padding: 40px;
   z-index: 10;
 }
 
@@ -262,8 +269,8 @@ li {
 
 .close-modal {
   position: absolute;
-  top: 2px;
-  right: 10px;
+  top: 10px;
+  right: 15px;
   font-size: 30px;
   color: var(--color-primary);
   cursor: pointer;

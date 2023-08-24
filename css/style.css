@@ -117,23 +117,11 @@ li {
   border-spacing: 0;
 }
 
-.tender__head {
-}
-
-.tender__row_header {
-}
-
 .tender__header {
   padding: 20px;
   color: var(--color-grey-dark);
   font-weight: normal;
   border-bottom: 1px solid var(--color-grey-border);
-}
-
-.tender__body {
-}
-
-.tender__row {
 }
 
 .tender__row:hover {
@@ -199,20 +187,8 @@ li {
   font-size: 14px;
 }
 
-.footer__head {
-}
-
-.footer__row_header {
-}
-
 .footer__header {
-  padding-bottom: 20px;
-}
-
-.footer__body {
-}
-
-.footer__row {
+  padding-bottom: 10px;
 }
 
 .footer__details {
@@ -223,8 +199,6 @@ li {
 
 .footer__detail {
   padding-bottom: 10px;
-}
-.footer__mail {
 }
 
 .footer__objects {
@@ -287,14 +261,6 @@ li {
   font-size: 20px;
 }
 
-.modal__type {
-}
-.modal__start {
-}
-.modal__end {
-}
 .modal__link {
   padding-top: 10px;
-}
-.modal__document {
 }

@@ -21,9 +21,9 @@ const tenders = [
     id: "t1",
     subject: "Кирпичная кладка",
     type: "СМР",
-    start: "24.07.2023",
-    end: "10.09.2023",
-    document: "https://disk.yandex.ru/d/0_La_cJdsABa3Q",
+    start: "02.10.2023",
+    end: "13.10.2023",
+    document: "https://disk.yandex.ru/d/F_XL8_OgGTZY5w",
   },
   {
     id: "t2",

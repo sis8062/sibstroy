@@ -41,6 +41,14 @@ const tenders = [
     end: "29.07.2024",
     document: "https://disk.yandex.ru/d/0_La_cJdsABa3Q",
   },
+  {
+    id: "t4",
+    subject: "Монтаж систем отопления и вентиляции",
+    type: "СМР",
+    start: "27.10.2024",
+    end: "03.11.2024",
+    document: "https://disk.yandex.ru/d/20ZgmyP1cFLDTw",
+  },
 ];
 
 tendersContainer.addEventListener("click", function (e) {

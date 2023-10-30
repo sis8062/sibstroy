@@ -49,6 +49,14 @@ const tenders = [
     end: "03.11.2024",
     document: "https://disk.yandex.ru/d/20ZgmyP1cFLDTw",
   },
+  {
+    id: "t5",
+    subject: "Монтаж систем водоснабжения и канализации",
+    type: "СМР",
+    start: "13.11.2024",
+    end: "13.11.2024",
+    document: "https://disk.yandex.ru/d/dB_i9kt3-tgFmQ",
+  },
 ];
 
 tendersContainer.addEventListener("click", function (e) {

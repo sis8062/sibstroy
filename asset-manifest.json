@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sibstroy/static/css/main.8a1e918f.css",
-    "main.js": "/sibstroy/static/js/main.07d19830.js",
+    "main.js": "/sibstroy/static/js/main.edcfbce5.js",
     "static/media/opensans-bold.woff": "/sibstroy/static/media/opensans-bold.8ea959a71b14fde61ba7.woff",
     "static/media/opensans-regular.woff": "/sibstroy/static/media/opensans-regular.62da124ec59f22033c58.woff",
     "static/media/opensans-light.woff": "/sibstroy/static/media/opensans-light.97380b04604b3214e2be.woff",
@@ -10,10 +10,10 @@
     "static/media/opensans-light.woff2": "/sibstroy/static/media/opensans-light.3e3169d2eee448d70e11.woff2",
     "index.html": "/sibstroy/index.html",
     "main.8a1e918f.css.map": "/sibstroy/static/css/main.8a1e918f.css.map",
-    "main.07d19830.js.map": "/sibstroy/static/js/main.07d19830.js.map"
+    "main.edcfbce5.js.map": "/sibstroy/static/js/main.edcfbce5.js.map"
   },
   "entrypoints": [
     "static/css/main.8a1e918f.css",
-    "static/js/main.07d19830.js"
+    "static/js/main.edcfbce5.js"
   ]
 }

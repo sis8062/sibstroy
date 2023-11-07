@@ -1,0 +1,47 @@
+.table {
+  &__data {
+    padding: 20px;
+
+    @media only screen and (max-width: 600px) {
+      display: block;
+      padding: 16px 20px;
+      border-bottom: var(--line);
+
+      &:last-child {
+        border: 0;
+      }
+
+      &::before {
+        content: attr(data-cell) ": ";
+        font-weight: bold;
+      }
+    }
+  }
+
+  &__row {
+    transition: background-color 300ms;
+
+    @media only screen and (max-width: 600px) {
+      display: block;
+      margin: 0 0 20px 0;
+      border: var(--line);
+
+      &:last-child {
+        margin: 0;
+      }
+    }
+
+    &:nth-child(even) {
+      background-color: var(--color-grey-mid);
+    }
+
+    &:nth-child(odd) {
+      background-color: var(--color-grey-light);
+    }
+
+    &:hover {
+      background-color: var(--color-grey-dark);
+      cursor: pointer;
+    }
+  }
+}

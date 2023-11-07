@@ -1,0 +1,148 @@
+// Reset styles
+
+@import-normalize;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+// Fonts
+
+@font-face {
+  font-family: "OpenSans";
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/woff2/opensans-regular.woff2") format("woff2"),
+    url("./assets/fonts/woff/opensans-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "OpenSans";
+  font-display: swap;
+  font-style: normal;
+  font-weight: bold;
+  src: url("./assets/fonts/woff2/opensans-bold.woff2") format("woff2"),
+    url("./assets/fonts/woff/opensans-bold.woff") format("woff");
+}
+@font-face {
+  font-family: "OpenSans";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+  src: url("./assets/fonts/woff2/opensans-light.woff2") format("woff2"),
+    url("./assets/fonts/woff/opensans-light.woff") format("woff");
+}
+
+// Variables
+
+:root {
+  --color-primary: #7b614b;
+  --color-brown-dark: #423a2c;
+  --color-grey-light: rgba(128, 128, 128, 0.1);
+  --color-grey-mid: rgba(128, 128, 128, 0.2);
+  --color-grey-dark: rgba(128, 128, 128, 0.4);
+  --color-white: #fff;
+
+  --color-background: #f2efed;
+  --color-backdrop: rgba(0, 0, 0, 0.75);
+
+  --shadow-dark: 0 1px 8px rgba(0, 0, 0, 0.25);
+  --line: 1px solid var(--color-brown-dark);
+
+  --font-size-regular: 18px;
+  --font-size-heading: 36px;
+  --font-size-subheading: 26px;
+  --font-size-footer: 14px;
+  --font-size-copyright: 12px;
+
+  --padding-general: 40px;
+  --padding-header: 0 40px;
+  --padding-footer: 20px 40px;
+
+  @media only screen and (max-width: 800px) {
+    --font-size-regular: 16px;
+    --font-size-heading: 32px;
+    --font-size-subheading: 24px;
+
+    --padding-general: 20px;
+    --padding-header: 0 20px;
+    --padding-footer: 20px 20px;
+  }
+
+  @media only screen and (max-width: 700px) {
+    --padding-header: 14px 20px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    --padding-general: 20px;
+    --padding-footer: 20px 20px;
+  }
+
+  @media only screen and (max-width: 440px) {
+    --padding-header: 18px 20px;
+  }
+}
+
+// General styles
+
+html {
+  overflow-x: hidden;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: "OpenSans", sans-serif;
+  color: var(--color-brown-dark);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+main {
+  display: flex;
+  flex: 1 1 0;
+  font-size: var(--font-size-regular);
+  background-color: var(--color-background);
+}
+
+section {
+  background-color: var(--color-white);
+  max-width: 1280px;
+  width: 100%;
+  padding: var(--padding-general);
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-weight: bold;
+  font-size: var(--font-size-heading);
+}

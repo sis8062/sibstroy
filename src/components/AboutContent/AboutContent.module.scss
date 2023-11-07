@@ -1,0 +1,10 @@
+.about {
+  &__text {
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+}

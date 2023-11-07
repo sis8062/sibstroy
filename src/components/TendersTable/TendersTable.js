@@ -6,7 +6,7 @@ import TenderDetail from "../TenderDetail/TenderDetail";
 import TableBody from "./TableBody";
 import TableHead from "./TableHead";
 
-const Table = ({ tenders }) => {
+const TendersTable = ({ tenders }) => {
   const [showModal, setShowModal] = useState(false);
   const [selectedTender, setSelectedTender] = useState();
 
@@ -35,4 +35,4 @@ const Table = ({ tenders }) => {
   );
 };
 
-export default Table;
+export default TendersTable;

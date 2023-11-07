@@ -1,7 +1,7 @@
 import { Await, defer, useLoaderData } from "react-router-dom";
 import { Suspense } from "react";
 
-import Table from "../components/TendersTable/TendersTable";
+import TendersTable from "../components/TendersTable/TendersTable";
 import Loader from "../components/UI/Loader/Loader";
 
 const Tenders = () => {
@@ -12,7 +12,7 @@ const Tenders = () => {
       <section>
         <Suspense fallback={<Loader />}>
           <Await resolve={tenders}>
-            {(loadedTenders) => <Table tenders={loadedTenders} />}
+            {(loadedTenders) => <TendersTable tenders={loadedTenders} />}
           </Await>
         </Suspense>
       </section>

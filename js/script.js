@@ -54,7 +54,7 @@ const tenders = [
     subject: "Монтаж систем водоснабжения и канализации",
     type: "СМР",
     start: "13.11.2023",
-    end: "13.11.2024",
+    end: "13.12.2023",
     document: "https://disk.yandex.ru/d/dB_i9kt3-tgFmQ",
   },
 ];

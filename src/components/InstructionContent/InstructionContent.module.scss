@@ -8,6 +8,13 @@
     }
   }
 
+  &__mail {
+    transition: 300ms color;
+    &:hover {
+      color: var(--color-primary);
+    }
+  }
+
   &__subheading {
     font-size: var(--font-size-subheading);
     font-weight: bold;

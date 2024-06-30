@@ -9,7 +9,7 @@ const InstructionContent = () => {
         тендера, изучить техническое задание и&nbsp;рабочую документацию
         на&nbsp;предмет возникающих вопросов. Затем заполнить форму
         коммерческого предложения и&nbsp;отправить нам на&nbsp;электронную почту{" "}
-        <a href="mailto:sis8062@yandex.ru">sis8062@yandex.ru</a> до&nbsp;даты
+        <a className={classes.instruction__mail} href="mailto:sis8062@yandex.ru">sis8062@yandex.ru</a> до&nbsp;даты
         окончания приема заявок.
       </p>
       <div className={classes.instruction__docs}>
